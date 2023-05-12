@@ -4,7 +4,7 @@ from keras.layers import Dense,SimpleRNN,Embedding
 from keras.utils import pad_sequences
 from keras.preprocessing.text import Tokenizer
 import streamlit as st
-st.header("Sentiment Analysis")
+st.title("Sentiment Analysis")
 abc=st.text_input("Enter below")
 if st.button("Analyze"):
     st.text("Analyzing may take upto a minute. Please be patient. Thank you!")
