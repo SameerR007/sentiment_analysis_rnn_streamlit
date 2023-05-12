@@ -1,4 +1,4 @@
 tensorflow
 keras
 streamlit
-pandas
+pandas<2
