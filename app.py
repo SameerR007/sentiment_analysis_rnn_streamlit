@@ -5,7 +5,7 @@ from keras.utils import pad_sequences
 from keras.preprocessing.text import Tokenizer
 import streamlit as st
 st.title("Sentiment Analysis")
-st.markdown("Takes the text input, analyzes it and classifies the sentiment of the text as positive,neutral or negative.")
+st.markdown("Overview: Takes the text input, analyzes it and classifies the sentiment of the text as positive,neutral or negative.")
 abc=st.text_input("Enter below")
 if st.button("Analyze"):
     st.text("Analyzing may take upto a minute. Please be patient. Thank you!")
