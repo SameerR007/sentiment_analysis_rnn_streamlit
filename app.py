@@ -31,8 +31,8 @@ if st.button("Analyze"):
     a=model.predict(inp)
     value=a.argmax()
     if value == 0:
-        st.text("negative mood")
+        st.text("Result: Negative mood")
     elif value == 1:
-        st.text("neutral mood")
+        st.text("Result: Neutral mood")
     else:
-        st.text("positive mood")
+        st.text("Result: Positive mood")
