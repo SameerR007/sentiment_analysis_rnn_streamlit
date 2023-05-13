@@ -5,8 +5,8 @@ from keras.utils import pad_sequences
 from keras.preprocessing.text import Tokenizer
 import streamlit as st
 st.title("Sentiment Analysis")
-st.markdown("Overview: Takes the text input, analyzes it and classifies the sentiment of the text as positive,neutral or negative.")
-abc=st.text_input("Enter below")
+st.markdown("Overview: Takes the tweet as input, analyzes it and classifies the sentiment of the tweet as positive,neutral or negative.")
+abc=st.text_input("Tweet your mood below")
 if st.button("Analyze"):
     st.text("Analyzing may take upto a minute. Please be patient. Thank you!")
     df = pickle.load(open("df.pkl","rb"))
